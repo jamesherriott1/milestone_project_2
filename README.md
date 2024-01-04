@@ -1,6 +1,6 @@
 # Pontoon Card Game
 
-## This is my milestone 2 project.
+## This is my milestone 2 project
 
 I decided to got with a card game as I wanted to create something simple and fun.
 
