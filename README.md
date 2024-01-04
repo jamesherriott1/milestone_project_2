@@ -16,3 +16,8 @@ I built this game with the intention of showing my undestanding of javascript, a
 ## Credits
 
 ## Tests
+
+I've added some html to the head section of the index.html file. I've checked in the browser and everyhting seems to be working fine. Tested in W3C, no errors.
+<!--add screenshots from assets folder once uploaded to file - screenshot1>
+
+
