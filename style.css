@@ -10,28 +10,25 @@ body {
     height: 200px;
     width: 150px;
     margin: 2px;
-     display: flex;
     flex-wrap: wrap;
     row-gap: 2px;
     column-gap: 2px;
     justify-content: center;
     grid-row: 2;
     grid-column: 1/11;
-    background-color: #666;
+    
 }
 
 #player_cards img {
     height: 200px;
     width: 150px;
     margin: 2px;
-     display: flex;
     flex-wrap: wrap;
     row-gap: 2px;
     column-gap: 2px;
     justify-content: center;
     grid-row: 2;
     grid-column: 1/11;
-    background-color: #666;
 }
 
 #twist {
