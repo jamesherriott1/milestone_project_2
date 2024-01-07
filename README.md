@@ -27,14 +27,19 @@ Added h2 to the player section of the body and 2 buttons. Also added a h3 which 
 
 <!-- need to test the h3 once I've added the javascript. not sure if what I have in mind will work but I'll run test once I get to that point and show results in here -->
 
-Added css to the player and ealer cards and added a font family. Tested code and no errors were found. <!-- add screen shot-->
+Added css to the player and dealer cards and added a font family. Tested code and no errors were found. <!-- add screen shot-->
 I did forget to add a source for the font family so i will go back and test again once I've added the source.
 <!-- find fonts in google fonts and add to css file -->
 
 Still having trouble with the fonts. Will try and add them as a file rather than a link.
+<!-- I copied and pasted the head element html from my first milestone project and the fonts are now working fine on all sections. -->
+
+<!-- add screenshot of url with green background and correct fonts -->
 
 I added a background color and it gave me an error when checked in the css validator. I changed from an rgb to dark green and it gives a valid css code, however, it still hasn't changed the background color. It seems to be a link issue.
 <!-- come back to css link as it still isn't working -->
+Solved the issue with the css. I used the head html from my first milestone projectand changed the href to suit the css folder for this project. I now have the gree background.
+
 
 Added card.images/ file to assets folder and added img element to html 
 <!-- need to test code for images file -->
