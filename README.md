@@ -30,3 +30,5 @@ Added h2 to the player section of the body and 2 buttons. Also added a h3 which 
 Added css to the player and ealer cards and added a font family. Tested code and no errors were found. <!-- add screen shot--> 
 I did forget to add a source for the font family so i will go back and test again once I've added the source 
 <!-- find fonts in google fonts and add to css file --> 
+
+Added css to buttons
