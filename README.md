@@ -50,3 +50,6 @@ Tested latest html code after adding the new head element code. I had an error s
 Added some more styling to the dealer and player cards sectons of the css file. All tested , no errors in the code, however, it seems to have shifted the cards to the left of the screen.
 <!-- revert back to previous css and add each variable 1 at a time -->
 The display variable was causing the problem with the deck moving to the left. I removed that and it works fine.
+
+Added img element to the player cards section in html as I noticed it was missing when I loaded the url to test the page. Realised this gave me a duplicate id so I changed the id to a class which solved the issue.
+<!-- might have to make changes later and give both sections their own id -->
