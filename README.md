@@ -44,3 +44,8 @@ Solved the issue with the css. I used the head html from my first milestone proj
 Added card.images/ file to assets folder and added img element to html 
 <!-- need to test code for images file -->
 
+Tested latest html code after adding the new head element code. I had an error saying there was no title. I've added the title and retested and have no errors. I also had the trailing slash error which i kept getting in my first project.
+<!-- add screen shot showing errors -->
+
+Added some more styling to the dealer and player cards sectons of the css file. All tested , no errors in the code, however, it seems to have shifted the cards to the left of the screen.
+<!-- revert back to previous css and add each variable 1 at a time -->
