@@ -34,3 +34,7 @@ I did forget to add a source for the font family so i will go back and test agai
 Still having trouble with the fonts. Will try and add them as a file rather than a link.
 
 I added a background color and it gave me an error when checked in the css validator. I changed from an rgb to dark green and it gives a valid css code, however, it still hasn't changed the background color. It seems to be a link issue.
+<!-- come back to css link as it still isn't working -->
+
+Added card.images/ file to assets folder and added img element to html
+
