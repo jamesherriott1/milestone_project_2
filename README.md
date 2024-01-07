@@ -17,7 +17,7 @@ I built this game with the intention of showing my undestanding of javascript, a
 
 ## Tests
 
-I've added some html to the head section of the index.html file. 
+I've added some html to the head section of the index.html file.
 
 I've added a h2 and div to the dealer section in te body and checked in the browser and everyhting seems to be working fine. Tested in W3C, no errors.
 <!--add screenshots from assets folder once uploaded to file - screenshot1-->
@@ -25,10 +25,8 @@ I've added a h2 and div to the dealer section in te body and checked in the brow
 Added h2 to the player section of the body and 2 buttons. Also added a h3 which showed and empty header warning when tested. This is something I want to add to once the javascript is added if it works.
 <!-- add screenshot 2 -->
 
-<!-- need to test the h3 once I've added the javascript. not sure if what I have in mind will work but I'll run test once I get to that point and show results in here --> 
+<!-- need to test the h3 once I've added the javascript. not sure if what I have in mind will work but I'll run test once I get to that point and show results in here -->
 
-Added css to the player and ealer cards and added a font family. Tested code and no errors were found. <!-- add screen shot--> 
-I did forget to add a source for the font family so i will go back and test again once I've added the source 
-<!-- find fonts in google fonts and add to css file --> 
-
-Added css to buttons
+Added css to the player and ealer cards and added a font family. Tested code and no errors were found. <!-- add screen shot-->
+I did forget to add a source for the font family so i will go back and test again once I've added the source.
+<!-- find fonts in google fonts and add to css file -->
