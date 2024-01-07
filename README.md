@@ -36,5 +36,6 @@ Still having trouble with the fonts. Will try and add them as a file rather than
 I added a background color and it gave me an error when checked in the css validator. I changed from an rgb to dark green and it gives a valid css code, however, it still hasn't changed the background color. It seems to be a link issue.
 <!-- come back to css link as it still isn't working -->
 
-Added card.images/ file to assets folder and added img element to html
+Added card.images/ file to assets folder and added img element to html 
+<!-- need to test code for images file -->
 
