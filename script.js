@@ -7,7 +7,7 @@ let playerAceCount = 0;
 let dealerCardBack;
 let playerCardBack;
 
-let canTwist = true; 
+let canTwist = true;
 // player can twist while playerSum <= 21
 
 
@@ -18,20 +18,20 @@ document.addEventListener('DOMContentLoaded', function buildDeck() {
 
     for (let i = 0; i < suits.lenght; i++) {
         for (let b = 0; b < values.lenght; b++) {
-            deck.push(values[b] + '-' + suits[i]);
+            deck.push(`${value[b]}-${suit[i]}`);
         }
     }
-})
+});
 
 
-function shuffleDeck(){
-
-}
-
-function dealCards(){
+function shuffleDeck() {
 
 }
 
-function startGame(){
+function dealCards() {
+
+}
+
+function startGame() {
 
 }
