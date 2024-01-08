@@ -7,19 +7,20 @@ var playerAceCount = 0; //counts players aces to check if 1 or 11
 var dealerCardBack; //dealers card face down
 var deck; // deck from where cards are drawn
 
-let canTwist = true; // player can twist while playerSum <= 21
+var canTwist = true; // player can twist while playerSum <= 21
 
 
 window.onload = function () {
     buildDeck(); //builds fresh deck of cards when DOM has loaded
 }
 
+
 function buildDeck(){
     let values = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']; //card values from ace to king
-    let suits = ['C','D','H','S']; //card suits, jack, queen, king, ace
+    let suits = ['C','D','H','S']; //card suit, jack, queen, king, ace
 }
 
-for (let i = 0; i < suits.lenght; i++){
+for (let i = 0; i < suits.length; i++) {
     for (let b =0; b < values.lenght; b++){
 deck.push(values[b] + '-' + suits[i]);
 }
