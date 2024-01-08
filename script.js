@@ -1,11 +1,11 @@
-let dealerSum = 0;
-let playerSum = 0;
+var dealerSum = 0;
+var playerSum = 0;
 
-let dealerAceCount = 0;
-let playerAceCount = 0;
+var dealerAceCount = 0;
+var playerAceCount = 0;
 
-let dealerCardBack;
-let playerCardBack;
+var dealerCardBack;
+var playerCardBack;
 
 let canTwist = true;
 // player can twist while playerSum <= 21
