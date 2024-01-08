@@ -21,8 +21,18 @@ function buildDeck() {
 
     for (let i = 0; i < suits.length; i++) {
         for (let j = 0; j < values.length; j++) {
-            deck.push(values[j] + "-" + suits[i]); //A-C -> K-C, A-D -> K-D
+            deck.push(values[j] + "-" + suits[i]); 
         }
     }
-    console.log(deck);
+    //console.log(deck);
+}
+
+function shuffleDeck() {
+    for (let i = 0; i < deck.length; i++) {
+        let j = math.floor(math.random() * deck.length); //1 * 52
+        let tmp = deck[i];
+        deck[i] = deck[j];
+        deck[j] = tmp;
+    }
+    console.log(deck) //shuffles deck
 }

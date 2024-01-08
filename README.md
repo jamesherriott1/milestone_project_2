@@ -55,6 +55,9 @@ Added img element to the player cards section in html as I noticed it was missin
 
 Kept getting 'suits not defined' error in dev tols inspector. {} were in the wrong place. Problem solved
 
+Array of cards not working. Things in the wrong places again. Solved the issue with a quick google search. Added the shuffle function and losy the array again. buidDeck console.log was commented out. Removed comment and ran code again and the deck array completely disappeared.
+ <!-- potential issue with math.random -->
+
 ## Major Issues
 
 Entered the wrong git command 'git rm -r .' and deleted the whole project. Managed to salvage most of the project and retested html and css. No errors. 
