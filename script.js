@@ -10,19 +10,28 @@ let playerCardBack;
 let canTwist = true; 
 // player can twist while playerSum <= 21
 
-window.onload = function () {
-    buildDeck();
+
+
+document.addEventListener('DOMContentLoaded', function buildDeck() {
+    let value = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
+    let suit = ['C', 'D', 'H', 'S'];
+
+    for (let i = 0; i < suits.lenght; i++) {
+        for (let b = 0; b < values.lenght; b++) {
+            deck.push(values[b] + '-' + suits[i]);
+        }
+    }
+})
+
+
+function shuffleDeck(){
+
 }
 
-function buildDeck(){
-    let values = ['A','2','3','4','5','6','7','8','9','10','J','Q','K'];
-    let suits = ['C','D','H','S'];
+function dealCards(){
+
 }
 
-for (let i = 0; i < suits.lenght; i++){
-    for (let b =0; b < values.lenght; b++){
-deck.push(values[b] + '-' + suits[i]);
-}
-}
+function startGame(){
 
-console.log(deck);
+}
