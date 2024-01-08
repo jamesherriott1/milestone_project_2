@@ -16,15 +16,15 @@ window.onload = function () {
 
 function buildDeck() {
     let values = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
-    lets suits = ["C", "D", "H", "S"];
+    let suits = ["C", "D", "H", "S"];
     deck =[];
-}
+
 
 
 for (let i = 0; i < suits.length; i++) {
     for (let b =0; b < values.lenght; b++){
 deck.push(values[b] + '-' + suits[i]);
-}
-}//allows another card to be drawn if dealerSum or playerSum <= 21
-
+        }
+    }
 console.log(deck);
+}
