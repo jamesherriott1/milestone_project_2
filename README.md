@@ -53,3 +53,6 @@ The display variable was causing the problem with the deck moving to the left. I
 
 Added img element to the player cards section in html as I noticed it was missing when I loaded the url to test the page. Realised this gave me a duplicate id so I changed the id to a class which solved the issue.
 <!-- might have to make changes later and give both sections their own id -->
+
+Added console.log to test card deck. Kept getting error message 'deck not declared'. I hadn't put it inside the declaration. Moved it amnd it cleared the error, however, the array of 52 cards didn't display in the console. 
+<!-- going back through code to check for the cause of the problem -->
