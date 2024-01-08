@@ -57,6 +57,8 @@ Kept getting 'suits not defined' error in dev tols inspector. {} were in the wro
 
 Array of cards not working. Things in the wrong places again. Solved the issue with a quick google search. Added the shuffle function and losy the array again. buidDeck console.log was commented out. Removed comment and ran code again and the deck array completely disappeared.
  <!-- potential issue with math.random -->
+ Modified array by adding math.floor to shuffleDeck function to give the array a starting point which is now pretty obvious. code ran, still no array, not even an unshuffled deck.
+ <!-- come back to this and work out the issue if resubmission is granted -->
 
 ## Major Issues
 

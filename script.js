@@ -29,7 +29,7 @@ function buildDeck() {
 
 function shuffleDeck() {
     for (let i = 0; i < deck.length; i++) {
-        let j = math.floor(math.random() * deck.length); //1 * 52
+        let j = math.floor(math.random() * deck.length); 
         let tmp = deck[i];
         deck[i] = deck[j];
         deck[j] = tmp;
