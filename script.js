@@ -1,16 +1,17 @@
-var dealerSum = 0;
-var playerSum = 0;
+var dealerSum = 0; //shows dealers total once they stick or go bust
+var playerSum = 0; //shows player total once they hit stick or go bust
 
-var dealerAceCount = 0;
-var playerAceCount = 0;
+var dealerAceCount = 0; //allows for ace count to calculate if dealer can twist or goes bust
+var playerAceCount = 0; //allows for ace count to calculate if player can twist or goes bust
 
-var dealerCardBack;
-var playerCardBack;
+var dealerCardBack; //hides the dealers first card
 
-let canTwist = true;
-// player can twist while playerSum <= 21
+var deck;
 
-window.onload = function(){
+let canTwist = true; // player can twist while playerSum <= 21
+
+
+window.onload = function(){ // builds deck when DOM has loaded
     buildDeck();
 }
 
@@ -21,7 +22,7 @@ function buildDeck() {
 
     for (let i = 0; i < suit.lenght; i++) {
         for (let b = 0; b < value.lenght; b++) {
-            deck.push(`${value[b]}-${suit[i]}`);
+            deck.push(`${value[b]}-${suit[i]}`); //value of the card [b] combined with the value of the suit[i]
         }
     }
     console.log(deck)
