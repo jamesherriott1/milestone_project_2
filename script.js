@@ -22,8 +22,8 @@ function buildDeck() {
 
 
 for (let i = 0; i < suits.length; i++) {
-    for (let b =0; b < values.lenght; b++){
-deck.push(values[b] + '-' + suits[i]);
+    for (let b =0; b < values.lenght; j++){
+deck.push(values[j] + '-' + suits[i]);
         }
     }
 console.log(deck);
