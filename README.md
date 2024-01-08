@@ -17,9 +17,8 @@ I built this game with the intention of showing my undestanding of javascript, a
 
 ## Tests
 
-I've added some html to the head section of the index.html file.
 
-I've added a h2 and div to the dealer section in te body and checked in the browser and everyhting seems to be working fine. Tested in W3C, no errors.
+Added a h2 and div to the dealer section in te body and checked in the browser and everyhting seems to be working fine. Tested in W3C, no errors.
 <!--add screenshots from assets folder once uploaded to file - screenshot1-->
 
 Added h2 to the player section of the body and 2 buttons. Also added a h3 which showed and empty header warning when tested. This is something I want to add to once the javascript is added if it works.
@@ -53,3 +52,8 @@ The display variable was causing the problem with the deck moving to the left. I
 
 Added img element to the player cards section in html as I noticed it was missing when I loaded the url to test the page. Realised this gave me a duplicate id so I changed the id to a class which solved the issue.
 <!-- might have to make changes later and give both sections their own id -->
+
+## Major Issues
+
+Entered the wrong git command 'git rm -r .' and deleted the whole project. Managed to salvage most of the project and retested html and css. No errors. 
+<!-- going back through js to see what's missing and testing in the url -->
