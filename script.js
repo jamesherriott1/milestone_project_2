@@ -23,7 +23,7 @@ function buildDeck() {
 
 for (let i = 0; i < suits.length; i++) {
     for (let j =0; j < values.lenght; j++){
-deck.push(values[j] + '-' + suits[i]);
+deck.push(values[j] + "-" + suits[i]);
         }
     }
 console.log(deck);
