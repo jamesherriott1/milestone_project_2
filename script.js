@@ -1,44 +1,28 @@
-var dealerSum = 0; //shows dealers total once they stick or go bust
-var playerSum = 0; //shows player total once they hit stick or go bust
+let dealerSum = 0;
+let playerSum = 0;
 
-var dealerAceCount = 0; //allows for ace count to calculate if dealer can twist or goes bust
-var playerAceCount = 0; //allows for ace count to calculate if player can twist or goes bust
+let dealerAceCount = 0;
+let playerAceCount = 0;
 
-var dealerCardBack; //hides the dealers first card
+let dealerCardBack;
+let playerCardBack;
 
-var deck;
+let canTwist = true; 
+// player can twist while playerSum <= 21
 
-let canTwist = true; // player can twist while playerSum <= 21
-
-
-window.onload = function(){ // builds deck when DOM has loaded
+window.onload = function () {
     buildDeck();
 }
 
-function buildDeck() {
-    let value = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
-    let suit = ['C', 'D', 'H', 'S'];
-    deck = [];
-
-    for (let i = 0; i < suit.lenght; i++) {
-        for (let b = 0; b < value.lenght; b++) {
-            deck.push(`${value[b]}-${suit[i]}`); //value of the card [b] combined with the value of the suit[i]
-        }
-    }
-    console.log(deck)
+function buildDeck(){
+    let values = ['A','2','3','4','5','6','7','8','9','10','J','Q','K'];
+    let suits = ['C','D','H','S'];
 }
 
-
-
-
-function shuffleDeck() {
-
+for (let i = 0; i < suits.lenght; i++){
+    for (let b =0; b < values.lenght; b++){
+deck.push(values[b] + '-' + suits[i]);
+}
 }
 
-function dealCards() {
-
-}
-
-function startGame() {
-
-}
+console.log(deck);
