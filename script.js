@@ -14,11 +14,12 @@ window.onload = function () {
     buildDeck(); //builds fresh deck of cards when DOM has loaded
 }
 
-
-function buildDeck(){
-    let values = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']; //card values from ace to king
-    let suits = ['C','D','H','S']; //card suit, jack, queen, king, ace
+function buildDeck() {
+    let values = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
+    lets suits = ["C", "D", "H", "S"];
+    deck =[];
 }
+
 
 for (let i = 0; i < suits.length; i++) {
     for (let b =0; b < values.lenght; b++){
